@@ -14,5 +14,17 @@ module.exports = {
         }
       }
     }
-  }
+  },
+  frontServer: {
+    proxy:{
+      '/api': {
+        target:'http://localhost:8080/',
+        changeOrign:true,
+        pathRewrite:{
+          '^/api':''
+        }
+      }
+    }
+  },
+
 }
