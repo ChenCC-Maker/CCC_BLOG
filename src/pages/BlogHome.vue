@@ -14,6 +14,12 @@
                   Markdown编辑器
               </router-link>
             </Menu-item>
+            <Menu-item name="3">
+              <router-link to="/blogHome/vueeasytable">
+                 <Icon type="ios-people"></Icon>
+                  VueEasyTable
+              </router-link>
+            </Menu-item>
         </Menu>
     </div>
     <div class="blogMain">

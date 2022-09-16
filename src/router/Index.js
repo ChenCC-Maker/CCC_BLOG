@@ -21,6 +21,11 @@ const routes = [
                 path:'blogManage',
                 name:'blogManage',
                 component:() => import("../pages/BlogManage.vue")
+            },
+            {
+                path:'vueeasytable',
+                name:'vueEasyTable',
+                component:()=> import("../pages/VueEasyTable.vue")
             }
         ]
     }
